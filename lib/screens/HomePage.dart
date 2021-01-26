@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
 
 Widget _appBar(BuildContext context){
   return AppBar(
-    title: Text('WhatsApp',style: TextStyle(color: Colors.white70),),
+    title: Text('HelloChat',style: TextStyle(color: Colors.white70),),
     bottom: _tabLayout(context),
     actions: <Widget>[
       IconButton(

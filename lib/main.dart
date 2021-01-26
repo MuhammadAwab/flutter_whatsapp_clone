@@ -1,6 +1,7 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_whatsapp_clone/screens/HomePage.dart';
+import 'package:get/get.dart';
 
 void main() async{
   // Ensure that plugin services are initialized so that `availableCameras()`
@@ -14,7 +15,7 @@ void main() async{
   final firstCamera = cameras.first;
 
   runApp(
-      MaterialApp(
+      GetMaterialApp(
         title: 'WhatsApp',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(primarySwatch: Colors.red,

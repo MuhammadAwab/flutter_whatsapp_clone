@@ -30,6 +30,7 @@ dependencies:
   cupertino_icons: ^1.0.0
   camera: ^0.5.8+17
   flutter_chat_bubble: ^1.0.2
+  get: ^3.24.0
 
 dev_dependencies:
   flutter_test:
